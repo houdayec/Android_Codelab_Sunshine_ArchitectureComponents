@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Master\\2. Master 2 - Corte\\Android_Lab_ArchitectureComponent\\architectureComponentsSunshineStartingCode\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\20181166\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\ca4d6bc955e7e2a2464d3f82969244d9\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "E:\\Master\\2. Master 2 - Corte\\Android_Lab_ArchitectureComponent\\architectureComponentsSunshineStartingCode\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "19,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "694,760",
+                        "endColumns": "65,63",
+                        "endOffsets": "755,819"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "328,394",
+                        "endColumns": "65,63",
+                        "endOffsets": "389,453"
+                    }
+                }
+            ]
+        }
+    ]
+}

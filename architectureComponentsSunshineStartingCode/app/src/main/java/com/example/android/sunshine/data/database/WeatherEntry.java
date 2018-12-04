@@ -16,10 +16,16 @@
 
 package com.example.android.sunshine.data.database;
 
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Index;
+import android.arch.persistence.room.PrimaryKey;
+
 import java.util.Date;
 
+@Entity(tableName = "weather", indices = {@Index(value = {"date"}, unique = true)})
 public class WeatherEntry {
 
+    @PrimaryKey(autoGenerate = true)
     private int id;
     private int weatherIconId;
     private Date date;

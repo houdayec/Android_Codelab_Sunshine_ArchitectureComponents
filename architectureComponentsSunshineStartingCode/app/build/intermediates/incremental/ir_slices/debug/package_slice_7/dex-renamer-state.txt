@@ -1,0 +1,4 @@
+#Tue Dec 04 14:18:07 CET 2018
+base.0=E\:\\Master\\2. Master 2 - Corte\\Android_Lab_ArchitectureComponent\\architectureComponentsSunshineStartingCode\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex
