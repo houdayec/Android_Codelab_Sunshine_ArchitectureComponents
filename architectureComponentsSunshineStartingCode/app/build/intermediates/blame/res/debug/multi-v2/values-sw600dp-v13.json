@@ -4,16 +4,6 @@
             "outputFile": "E:\\Master\\2. Master 2 - Corte\\Android_Lab_ArchitectureComponent\\architectureComponentsSunshineStartingCode\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\20181166\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\ca4d6bc955e7e2a2464d3f82969244d9\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
                     "source": "E:\\Master\\2. Master 2 - Corte\\Android_Lab_ArchitectureComponent\\architectureComponentsSunshineStartingCode\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
                     "from": {
                         "startLines": "20,22,21",
@@ -28,6 +18,16 @@
                         "startOffsets": "611,675,735",
                         "endColumns": "63,59,72",
                         "endOffsets": "670,730,803"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\20181166\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b5c63039d7ba044cc81883370643d60a\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

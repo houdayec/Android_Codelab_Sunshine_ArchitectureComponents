@@ -48,7 +48,8 @@ public class WeatherEntry {
      * @param wind Wind speed
      * @param degrees Wind direction
      */
-    public WeatherEntry(int weatherIconId, Date date, double min, double max, double humidity, double pressure, double wind, double degrees) {
+    public WeatherEntry(int id,int weatherIconId, Date date, double min, double max, double humidity, double pressure, double wind, double degrees) {
+        this.id = id;
         this.weatherIconId = weatherIconId;
         this.date = date;
         this.min = min;

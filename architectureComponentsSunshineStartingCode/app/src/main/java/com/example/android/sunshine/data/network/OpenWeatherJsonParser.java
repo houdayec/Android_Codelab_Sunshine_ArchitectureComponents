@@ -26,6 +26,7 @@ import org.json.JSONObject;
 
 import java.net.HttpURLConnection;
 import java.util.Date;
+import java.util.Random;
 
 /**
  * Parser for OpenWeatherMap JSON data.
@@ -119,8 +120,11 @@ final class OpenWeatherJsonParser {
         double max = temperatureObject.getDouble(OWM_MAX);
         double min = temperatureObject.getDouble(OWM_MIN);
 
+        Random rand = new Random();
+
+        int randomID = rand.nextInt(50) + 1;
         // Create the weather entry object
-        return new WeatherEntry(weatherId, new Date(dateTimeMillis), max, min,
+        return new WeatherEntry(randomID, weatherId, new Date(dateTimeMillis), max, min,
                 humidity, pressure, windSpeed, windDirection);
     }
 
